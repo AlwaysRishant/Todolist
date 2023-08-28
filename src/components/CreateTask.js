@@ -12,8 +12,23 @@ export default class CreateTask extends Component {
   }
   handleSubmit(evt) {
     evt.preventDefault();
-    this.props.createTask(this.state.task);
-    this.setState({ task: "" });
+    try {
+      fetch(
+        `http://127.0.0.1:2022/Todolist/Additem?task=${this.state.task}`
+      )
+        .then((response) => {
+          if (response.ok) {
+            alert("Task added successfully");
+            this.props.createTask(this.state.task);
+            this.setState({ task: "" });
+          }
+        })
+        .catch((error) => {
+          alert("error occur in adding the task " + error);
+        });
+    } catch (error) {
+      alert("Error in adding the task " + error);
+    }
   }
   render() {
     return (
