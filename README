@@ -3,4 +3,4 @@ The name of application is todolist.
 In this application you can perform many operations like add,delete,edit,status these types of operations you can perform.
 In the front end i have used React with the styling of css.
 In the backend i have used java to store the task into the database.
-In the database end i have used oracle to store data through sql.
+In the databaseend i have used oracle to store the data through sql.
