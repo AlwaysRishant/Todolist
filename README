@@ -1,6 +1,22 @@
-In this project It is a web application in which you can add a task to do.
-The name of application is todolist.
-In this application you can perform many operations like add,delete,edit,status these types of operations you can perform.
-In the front end i have used React with the styling of css.
-In the backend i have used java to store the task into the database.
-In the databaseend i have used oracle to store the data through sql.
+# Task Management Web Application
+
+This web application is designed for managing tasks with a front end developed using HTML, CSS, and JavaScript (or React.js) and a back end implemented in advanced Java. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks stored in an Oracle database.
+
+## Features
+
+- **Task Management**: Add, view, update, and delete tasks.
+- **User-friendly Interface**: Simple and intuitive UI for managing tasks.
+- **Persistent Storage**: Utilizes Oracle database for storing task data.
+- **RESTful APIs**: Backend provides RESTful endpoints for communication with the front end.
+- **Security**: Implement necessary security measures to protect user data.
+
+## Technologies Used
+
+- **Front End**:
+  - HTML, CSS, JavaScript (or React.js)
+  - Additional libraries or frameworks (if used)
+
+- **Back End**:
+  - Advanced Java
+  - Apache Tomcat server for connectivity between front end and back end
+  - Oracle Database for data storage
